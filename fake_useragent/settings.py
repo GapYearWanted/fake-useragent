@@ -13,11 +13,11 @@ DB = os.path.join(
     ),
 )
 
-CACHE_SERVER = 'https://fake-useragent.herokuapp.com/browsers/{version}'.format(
+CACHE_SERVER = 'http://fake-useragent.herokuapp.com/browsers/{version}'.format(
     version=__version__,
 )
 
-BROWSERS_STATS_PAGE = 'https://www.w3schools.com/browsers/default.asp'
+BROWSERS_STATS_PAGE = 'http://www.w3schools.com/browsers/default.asp'
 
 BROWSER_BASE_PAGE = 'http://useragentstring.com/pages/useragentstring.php?name={browser}'  # noqa
 
